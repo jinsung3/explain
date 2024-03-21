@@ -85,11 +85,9 @@ int chooseDoll(int score) {
         printf("      \n");
         return 2; // 2000 이상일 경우 2번 인형 획득
     } else if (score >= 100) {
-        printf("  _   \n");
-        printf(" / \\  \n");
-        printf("( o ) \n");
-        printf(" \\_/  \n");
-        printf("      \n");
+        printf(".∩   ∩");
+        printf("( •̀ - •́ ) 💢");
+        printf("૮       ა");
         return 1; // 100 이상일 경우 1번 인형 획득
     }
 }
