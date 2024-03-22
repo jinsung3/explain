@@ -22,7 +22,7 @@ int new(int a) {
 
 // 점수에 따라 인형 선택 함수
 int chooseDoll(int score) {
-    if (score >= 300000) {
+    if (score >= 2000000) {
         printf("   \n");
         printf("  @@@  \n");
         printf(" @@@@@ \n");
@@ -30,64 +30,64 @@ int chooseDoll(int score) {
         printf(" @@@@@ \n");
         printf("   ||   \n");
         return 10; // 300,000 이상일 경우 10번 인형 획득
-    } else if (score >= 13000) {
+    } else if (score >= 17000) {
         printf("  __  \n");
         printf(" /  \\ \n");
         printf(" |  | \n");
         printf(" \\__/ \n");
         printf("      \n");
         return 9; // 15000 이상일 경우 9번 인형 획득
-    } else if (score >= 11000) {
+    } else if (score >= 15000) {
         printf("  /\\  \n");
         printf(" /  \\ \n");
         printf("/____\\ \n");
         printf("      \n");
         return 8; // 13000 이상일 경우 8번 인형 획득
-    } else if (score >= 9000) {
+    } else if (score >= 13000) {
         printf("  ||  \n");
         printf("  ||  \n");
         printf("  ||  \n");
         printf("  ||  \n");
         printf("  ||  \n");
         return 7; // 11000 이상일 경우 7번 인형 획득
-    } else if (score >= 7000) {
+    } else if (score >= 11000) {
         printf("  //\\  \n");
         printf(" //__\\ \n");
         printf("//    \\\n");
         printf("      \n");
         return 6; // 9000 이상일 경우 6번 인형 획득
-    } else if (score >= 5000) {
+    } else if (score >= 9000) {
         printf("  ||||  \n");
         printf("  ||||  \n");
         printf("  ||||  \n");
         printf("  ||||  \n");
         printf("       \n");
         return 5; // 7000 이상일 경우 5번 인형 획득
-    } else if (score >= 3000) {
+    } else if (score >= 7000) {
         printf("  ||  \n");
         printf("  ||  \n");
         printf("  ||  \n");
         printf("  ||  \n");
         printf("      \n");
         return 4; // 5000 이상일 경우 4번 인형 획득
-    } else if (score >= 2000) {
+    } else if (score >= 5000) {
         printf("  @@  \n");
         printf(" @  @ \n");
         printf("@    @\n");
         printf(" @  @ \n");
         printf("  @@  \n");
         return 3; // 3000 이상일 경우 3번 인형 획득
-    } else if (score >= 1000) {
+    } else if (score >= 3000) {
         printf("  /\\  \n");
         printf("  \\/  \n");
         printf(" /\\   \n");
         printf("/__\\  \n");
         printf("      \n");
         return 2; // 2000 이상일 경우 2번 인형 획득
-    } else if (score >= 100) {
-        printf(".∩   ∩");
-        printf("( •̀ - •́ ) 💢");
-        printf("૮       ა");
+    } else if (score >= 1000) {
+        printf(".∩    ∩\n");
+        printf("( •̀ - •́ ) 💢\n");
+        printf("૮       ა\n");
         return 1; // 100 이상일 경우 1번 인형 획득
     }
 }
